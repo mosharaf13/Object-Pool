@@ -5,7 +5,7 @@ namespace Chapter.ObjectPool
 {
     public class DroneObjectPool : MonoBehaviour
     {
-        public int maxPoolSize = 20;
+        public int maxPoolSize = 10;
         public int stackDefaultCapacity = 10;
 
         public IObjectPool<Drone> Pool 
